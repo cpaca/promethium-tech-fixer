@@ -20,6 +20,12 @@ for tech_name, tech in pairs(data.raw["technology"]) do
         goto continue
     end
 
+    -- I guess using the PlanetsLib field can help simplify things.
+    -- I'm only going to EXPLICITLY check for false (nil means not-set which will be going through.)
+    if tech["planetslib_ensure_all_packs_from_vanilla_lab"] == false then
+        goto continue
+    end
+
     local tech_unit = tech["unit"]
     if not tech_unit then
         -- Trigger techs.
