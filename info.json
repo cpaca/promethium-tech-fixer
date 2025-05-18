@@ -1,6 +1,6 @@
 {
   "name": "promethium-tech-fixer",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "title": "Promethium Techs Fixer",
   "author": "TsumikiMiniwa",
   "homepage": "https://github.com/cpaca/promethium-tech-fixer",
@@ -8,7 +8,9 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base",
-    "PlanetsLib"
+    "space-age",
+    "? PlanetsLib",
+    "? planet-muluna"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
