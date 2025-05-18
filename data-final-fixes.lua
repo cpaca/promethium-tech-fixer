@@ -22,7 +22,7 @@ for tech_name, tech in pairs(data.raw["technology"]) do
 
     local tech_unit = tech["unit"]
     if not tech_unit then
-        -- idk how this would be possible, but it IS marked as "Optional"
+        -- Trigger techs.
         goto continue
     end
 

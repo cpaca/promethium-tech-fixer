@@ -9,8 +9,8 @@
   "dependencies": [
     "base",
     "space-age",
-    "? planetslib",
-    "? muluna"
+    "? PlanetsLib",
+    "? planet-muluna"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
